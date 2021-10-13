@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top right, yellow, red);
+}
+
+.container {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    height: 60%;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-data {
+    margin: 50px 10px;
+}
+
+label, input {
+    width: 100%;
+    padding: 10px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: transparent;
+}
+
+.username {
+    margin-bottom: 30px;
+}
+
+.btn-submit {
+    border: transparent;
+    padding: 10px;
+    background: linear-gradient(to top right, yellow, red);
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background: red;
+    transition: 0.5s;
+}
+
+.forgot {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 2.5em;
+    height: 2.5em;
+}
